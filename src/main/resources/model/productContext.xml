@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="product_01" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="1"/>
+        <property name="nameProduct" value="Kingston Hyper X"/>
+        <property name="priceProduct" value="1199"/>
+    </bean>
+
+    <bean id="product_02" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="2"/>
+        <property name="nameProduct" value="Acer Aspire A15"/>
+        <property name="priceProduct" value="9999"/>
+    </bean>
+
+    <bean id="product_03" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="3"/>
+        <property name="nameProduct" value="Apple iPhone 5"/>
+        <property name="priceProduct" value="4499"/>
+    </bean>
+
+    <bean id="product_04" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="4"/>
+        <property name="nameProduct" value="Logitech Z-313"/>
+        <property name="priceProduct" value="999"/>
+    </bean>
+
+    <bean id="product_05" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="5"/>
+        <property name="nameProduct" value="Samsung UE-13"/>
+        <property name="priceProduct" value="4999"/>
+    </bean>
+
+    <bean id="product_06" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="6"/>
+        <property name="nameProduct" value="Razer Black Widow 2014 Expert"/>
+        <property name="priceProduct" value="2499"/>
+    </bean>
+
+    <bean id="product_07" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="7"/>
+        <property name="nameProduct" value="SteelSeries Rival 95 Black"/>
+        <property name="priceProduct" value="665"/>
+    </bean>
+
+    <bean id="product_08" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="8"/>
+        <property name="nameProduct" value="Cannon Pixma TS5040 Black"/>
+        <property name="priceProduct" value="2665"/>
+    </bean>
+
+    <bean id="product_09" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="9"/>
+        <property name="nameProduct" value="BanQ MS506"/>
+        <property name="priceProduct" value="8299"/>
+    </bean>
+
+    <bean id="product_10" class="oop.internetmarket.model.products.Product">
+        <property name="codeProduct" value="10"/>
+        <property name="nameProduct" value="Apple iPad mini 2"/>
+        <property name="priceProduct" value="7599"/>
+    </bean>
+
+</beans>

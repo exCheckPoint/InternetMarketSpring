@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="clientContext.xml"/>
+    <import resource="productContext.xml"/>
+    <import resource="sellContext.xml"/>
+
+    <bean id="bill_01" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="1" />
+        <property name="client" ref="client_01" />
+        <property name="product" ref="product_01"/>
+        <property name="sell" ref="sell_01" />
+    </bean>
+
+    <bean id="bill_02" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="2" />
+        <property name="client" ref="client_02" />
+        <property name="product" ref="product_02"/>
+        <property name="sell" ref="sell_02" />
+    </bean>
+
+    <bean id="bill_03" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="1" />
+        <property name="client" ref="client_03" />
+        <property name="product" ref="product_03"/>
+        <property name="sell" ref="sell_03" />
+    </bean>
+
+    <bean id="bill_04" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="4" />
+        <property name="client" ref="client_04" />
+        <property name="product" ref="product_04"/>
+        <property name="sell" ref="sell_04" />
+    </bean>
+
+    <bean id="bill_05" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="5" />
+        <property name="client" ref="client_05" />
+        <property name="product" ref="product_05"/>
+        <property name="sell" ref="sell_05" />
+    </bean>
+    <bean id="bill_06" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="6" />
+        <property name="client" ref="client_06" />
+        <property name="product" ref="product_06"/>
+        <property name="sell" ref="sell_06" />
+    </bean>
+
+    <bean id="bill_07" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="7" />
+        <property name="client" ref="client_07" />
+        <property name="product" ref="product_07"/>
+        <property name="sell" ref="sell_07" />
+    </bean>
+
+    <bean id="bill_08" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="8" />
+        <property name="client" ref="client_08" />
+        <property name="product" ref="product_08"/>
+        <property name="sell" ref="sell_08" />
+    </bean>
+
+    <bean id="bill_09" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="9" />
+        <property name="client" ref="client_09" />
+        <property name="product" ref="product_09"/>
+        <property name="sell" ref="sell_09" />
+    </bean>
+
+    <bean id="bill_10" class="oop.internetmarket.model.bill.Bill" >
+        <property name="codeBill" value="10" />
+        <property name="client" ref="client_10" />
+        <property name="product" ref="product_10"/>
+        <property name="sell" ref="sell_10" />
+    </bean>
+</beans>

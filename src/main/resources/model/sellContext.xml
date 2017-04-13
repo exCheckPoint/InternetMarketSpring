@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sell_01" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="1"/>
+        <property name="dateSell" value="15.03.2017"/>
+        <property name="dateReshpmen" value="16.03.2017"/>
+        <property name="number" value="3"/>
+    </bean>
+
+    <bean id="sell_02" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="2"/>
+        <property name="dateSell" value="25.01.2017"/>
+        <property name="dateReshpmen" value="30.01.2017"/>
+        <property name="number" value="1"/>
+    </bean>
+
+    <bean id="sell_03" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="3"/>
+        <property name="dateSell" value="13.12.2016"/>
+        <property name="dateReshpmen" value="14.12.2016"/>
+        <property name="number" value="2"/>
+    </bean>
+
+    <bean id="sell_04" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="4"/>
+        <property name="dateSell" value="03.06.2016"/>
+        <property name="dateReshpmen" value="06.06.2016"/>
+        <property name="number" value="5"/>
+    </bean>
+
+    <bean id="sell_05" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="5"/>
+        <property name="dateSell" value="31.01.2017"/>
+        <property name="dateReshpmen" value="31.01.2017"/>
+        <property name="number" value="1"/>
+    </bean>
+
+    <bean id="sell_06" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="6"/>
+        <property name="dateSell" value="23.12.2016"/>
+        <property name="dateReshpmen" value="25.12.2016"/>
+        <property name="number" value="3"/>
+    </bean>
+
+    <bean id="sell_07" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="7"/>
+        <property name="dateSell" value="11.01.2017"/>
+        <property name="dateReshpmen" value="14.01.2017"/>
+        <property name="number" value="6"/>
+    </bean>
+
+    <bean id="sell_08" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="8"/>
+        <property name="dateSell" value="01.07.2016"/>
+        <property name="dateReshpmen" value="10.07.2016"/>
+        <property name="number" value="1"/>
+    </bean>
+
+    <bean id="sell_09" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="9"/>
+        <property name="dateSell" value="12.03.2017"/>
+        <property name="dateReshpmen" value="14.03.2017"/>
+        <property name="number" value="1"/>
+    </bean>
+
+    <bean id="sell_10" class="oop.internetmarket.model.sells.Sell">
+        <property name="codeSell" value="10"/>
+        <property name="dateSell" value="11.10.2016"/>
+        <property name="dateReshpmen" value="28.10.2016"/>
+        <property name="number" value="3"/>
+    </bean>
+</beans>

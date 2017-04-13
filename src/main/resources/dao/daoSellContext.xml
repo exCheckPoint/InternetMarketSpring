@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="../model/sellContext.xml"/>
+    <bean id="daoSellContext" class="oop.internetmarket.dao.sells.impl.DaoSell">
+        <constructor-arg>
+            <list>
+                <ref bean="sell_01"/>
+                <ref bean="sell_02"/>
+                <ref bean="sell_03"/>
+                <ref bean="sell_04"/>
+                <ref bean="sell_05"/>
+                <ref bean="sell_06"/>
+                <ref bean="sell_07"/>
+                <ref bean="sell_08"/>
+                <ref bean="sell_09"/>
+                <ref bean="sell_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

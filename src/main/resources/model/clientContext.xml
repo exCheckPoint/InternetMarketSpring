@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="client_01" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="1"/>
+        <property name="surnameClient" value="Sydorovych"/>
+        <property name="nameClient" value="Vova"/>
+        <property name="middleNameClient" value="Valeriyovych"/>
+        <property name="adressClient" value="Chernivtsi"/>
+        <property name="phoneNumberClient" value="+380636257523"/>
+        <property name="emailClient" value="excheckpoint@gmail.com"/>
+    </bean>
+
+    <bean id="client_02" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="2"/>
+        <property name="surnameClient" value="Verbytskiy"/>
+        <property name="nameClient" value="Stas"/>
+        <property name="middleNameClient" value="Anatoliyovych"/>
+        <property name="adressClient" value="Kremenets"/>
+        <property name="phoneNumberClient" value="+380650256874"/>
+        <property name="emailClient" value="123123@mail.ru"/>
+    </bean>
+
+    <bean id="client_03" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="3"/>
+        <property name="surnameClient" value="Perepelytsya"/>
+        <property name="nameClient" value="Andriy"/>
+        <property name="middleNameClient" value="Bat'kovych"/>
+        <property name="adressClient" value="Chernivtsi"/>
+        <property name="phoneNumberClient" value="+380673977402"/>
+        <property name="emailClient" value="andrperep@yahoo.com"/>
+    </bean>
+
+    <bean id="client_04" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="4"/>
+        <property name="surnameClient" value="Pupkin"/>
+        <property name="nameClient" value="Bogdan"/>
+        <property name="middleNameClient" value="Petrovych"/>
+        <property name="adressClient" value="L'viv"/>
+        <property name="phoneNumberClient" value="+380992863745"/>
+        <property name="emailClient" value="pupkin@rambler.ru"/>
+    </bean>
+
+    <bean id="client_05" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="5"/>
+        <property name="surnameClient" value="Ivanova"/>
+        <property name="nameClient" value="Kateryna"/>
+        <property name="middleNameClient" value="Ivanivna"/>
+        <property name="adressClient" value="Kiev"/>
+        <property name="phoneNumberClient" value="+380671239543"/>
+        <property name="emailClient" value="Katyuha@abs.com"/>
+    </bean>
+
+    <bean id="client_06" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="6"/>
+        <property name="surnameClient" value="Ripper"/>
+        <property name="nameClient" value="Jack"/>
+        <property name="middleNameClient" value="Vills"/>
+        <property name="adressClient" value="Canada"/>
+        <property name="phoneNumberClient" value="+111111111111"/>
+        <property name="emailClient" value="jacktheripper@asd.com"/>
+    </bean>
+
+    <bean id="client_07" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="7"/>
+        <property name="surnameClient" value="Kurel'kin"/>
+        <property name="nameClient" value="Myhaylo"/>
+        <property name="middleNameClient" value="Andriyovych"/>
+        <property name="adressClient" value="Charkiv"/>
+        <property name="phoneNumberClient" value="+380683467655"/>
+        <property name="emailClient" value="chuko1234@gmail.com"/>
+    </bean>
+
+    <bean id="client_08" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="8"/>
+        <property name="surnameClient" value="Mulykov"/>
+        <property name="nameClient" value="Anton"/>
+        <property name="middleNameClient" value="Bogdanovich"/>
+        <property name="adressClient" value="Ternopil"/>
+        <property name="phoneNumberClient" value="+380738962346"/>
+        <property name="emailClient" value="Mulyk1988@rambler.ru"/>
+    </bean>
+
+    <bean id="client_09" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="9"/>
+        <property name="surnameClient" value="Dzera"/>
+        <property name="nameClient" value="Yulia"/>
+        <property name="middleNameClient" value="Oleksandrivna"/>
+        <property name="adressClient" value="Rogatyn"/>
+        <property name="phoneNumberClient" value="+380972349367"/>
+        <property name="emailClient" value="yulka001@fzvz.com"/>
+    </bean>
+
+    <bean id="client_10" class="oop.internetmarket.model.clients.Client">
+        <property name="codeClient" value="10"/>
+        <property name="surnameClient" value="Bobrovskiy"/>
+        <property name="nameClient" value="Valeriy"/>
+        <property name="middleNameClient" value="Anatoliyovych"/>
+        <property name="adressClient" value="Chernivtsi"/>
+        <property name="phoneNumberClient" value="+380568952347"/>
+        <property name="emailClient" value="leka007@asdf.cv"/>
+    </bean>
+</beans>
